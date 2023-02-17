@@ -363,7 +363,7 @@ function removeFromCart(id, qty = 1) {
   if (article && article.qty - qty > 0) {
     article.qty--;
   } else {
-    const confirm = window.confirm("Estás Seguro??");
+    const confirm = window.confirm("¿Está usted Seguro?");
     if (confirm) {
       cart = cart.filter((a) => a.id !== id);
     }
