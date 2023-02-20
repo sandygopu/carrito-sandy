@@ -249,7 +249,7 @@ function printProducts() {
       <div class="products__data">
         <h2 class="products__name">${product.name}</h2>
         <div class="">
-          <h3 class="products__price">$${product.price}</h3>
+          <h3 class="products__price">S/. ${product.price}</h3>
           <span class="products__quantity">Quedan solo ${product.quantity} unidades</span>
         </div>
         <button type="button" class="button products__button addToCart" data-id="${product.id}">
